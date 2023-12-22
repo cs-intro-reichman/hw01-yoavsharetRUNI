@@ -4,6 +4,11 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		int cents_amount = Integer.parseInt(args[0]);
+		int quarters = cents_amount / 25;
+		int cents = cents_amount % 25;
+		String output = "Use " + quarters + " and " +
+						cents + " cents";
+		System.out.println(output);
 	}
 }
