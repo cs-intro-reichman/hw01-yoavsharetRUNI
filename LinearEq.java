@@ -12,7 +12,7 @@ public class LinearEq {
 
 		double x = (c - b)/a;
 		String output = a + " * x + " + b + " = " + c + "\n" +
-						"X = " + x; 
+						"x = " + x; 
 		System.out.println(output);
 	}
 }
